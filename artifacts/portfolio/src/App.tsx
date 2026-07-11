@@ -6,6 +6,8 @@ import Home from "@/pages/Home";
 import Publications from "@/pages/Publications";
 import Research from "@/pages/Research";
 import Teaching from "@/pages/Teaching";
+import Vignettes from "@/pages/Vignettes";
+import Resources from "@/pages/Resources";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
 
@@ -17,6 +19,8 @@ function AppRouter() {
         <Route path="/publications" component={Publications} />
         <Route path="/research" component={Research} />
         <Route path="/teaching" component={Teaching} />
+        <Route path="/vignettes" component={Vignettes} />
+        <Route path="/resources" component={Resources} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>

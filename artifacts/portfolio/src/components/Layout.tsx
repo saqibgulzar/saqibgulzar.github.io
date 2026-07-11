@@ -10,6 +10,8 @@ const NAV_LINKS = [
   { href: "/publications", label: "Publications" },
   { href: "/research", label: "Research" },
   { href: "/teaching", label: "Teaching" },
+  { href: "/vignettes", label: "Vignettes" },
+  { href: "/resources", label: "Resources" },
   { href: "/contact", label: "Contact" }
 ];
 
