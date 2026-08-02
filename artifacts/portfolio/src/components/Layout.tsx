@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 import { ThemeToggle } from "./ThemeToggle";
+import { GulzarLabLogo } from "./GulzarLabLogo";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { profile } from "@/data/content";
@@ -29,8 +30,14 @@ export function Layout({ children }: { children: ReactNode }) {
     <div className="min-h-[100dvh] flex flex-col font-sans">
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 md:px-8 max-w-6xl h-16 flex items-center justify-between">
-          <Link href="/" className="font-serif font-semibold text-lg hover:text-primary transition-colors">
-            {profile.name}
+          <Link href="/" className="flex items-center gap-2.5 group hover:opacity-80 transition-opacity">
+            <span className="text-primary shrink-0">
+              <GulzarLabLogo size={30} />
+            </span>
+            <div className="leading-tight">
+              <span className="font-serif font-semibold text-base text-foreground block">{profile.name}</span>
+              <span className="text-[10px] font-mono text-muted-foreground tracking-widest uppercase">{profile.lab}</span>
+            </div>
           </Link>
           
           {/* Desktop Nav */}
