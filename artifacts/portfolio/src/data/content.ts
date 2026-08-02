@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 export const profile = {
   name: "Saqib Gulzar",
   title: "SCITT Assistant Professor",
+  lab: "Gulzar Lab",
   institution: "Colorado State University Pueblo",
   email: "saqib.gulzar@csupueblo.edu",
   office: "CIHHI 254",
@@ -291,120 +292,120 @@ export const bookChapters: Array<{
 // ─── RESEARCH AREAS ───────────────────────────────────────────────────────────
 export const researchAreas = [
   {
-    id: "binder-mechanics",
-    title: "Asphalt Binder Mechanics & Characterization",
-    shortTitle: "Binder Mechanics",
-    tagline: "Understanding asphalt at the molecular and material scale.",
-    description: `Asphalt binder is the glue that holds road pavements together. My work focuses on characterizing its complex nonlinear rheological behavior using advanced testing protocols such as Large Amplitude Oscillatory Shear (LAOS). By probing binders far beyond the linear viscoelastic regime, we uncover the onset of damage, microstructural evolution, and material nonlinearities that govern long-term pavement performance.`,
+    id: "safety",
+    title: "Safety",
+    shortTitle: "Safety",
+    tagline: "Reducing risk on our roads through data-driven engineering.",
+    description: `Road safety is one of the most pressing challenges in transportation engineering. Our research investigates the material, structural, and system-level factors that contribute to pavement-related safety hazards — from skid resistance and surface friction to work zone design and crash risk modeling. We combine lab-scale characterization with network-level analysis to develop evidence-based safety improvements.`,
     subareas: [
       {
-        title: "Large Amplitude Oscillatory Shear (LAOS)",
-        description: "Probing nonlinear viscoelastic responses of asphalt binders beyond conventional linear regime testing, capturing waveform distortions, higher harmonics, and strain-dependent material properties.",
+        title: "Pavement Surface Friction & Skid Resistance",
+        description: "Characterizing the friction properties of pavement surfaces and their evolution with traffic and weather, identifying conditions that elevate wet-pavement crash risk.",
+        figure: ""
+      },
+      {
+        title: "Work Zone Safety",
+        description: "Analyzing traffic flow disruptions, driver behavior, and material performance in active construction and maintenance zones to reduce work zone incidents.",
+        figure: ""
+      },
+      {
+        title: "Crash Risk & Pavement Condition",
+        description: "Developing models that link pavement structural and surface condition indicators (roughness, rut depth, cracking) to crash frequency and severity.",
+        figure: ""
+      },
+      {
+        title: "Vulnerable Road Users",
+        description: "Evaluating pavement surface conditions, shoulder design, and infrastructure treatments that affect the safety of pedestrians and cyclists.",
+        figure: ""
+      }
+    ],
+    figure: ""
+  },
+  {
+    id: "infrastructure",
+    title: "Infrastructure",
+    shortTitle: "Infrastructure",
+    tagline: "Understanding and improving the materials that carry our roads.",
+    description: `Durable, high-performing infrastructure begins with a deep understanding of materials. Our research employs multiscale mechanistic investigations — from asphalt binder rheology to mixture-scale fatigue and rutting — to characterize how pavements are built, how they age, and how they fail. This foundational work informs better material specifications, design practices, and asset management strategies.`,
+    subareas: [
+      {
+        title: "Asphalt Binder Characterization",
+        description: "Probing nonlinear rheological behavior of asphalt binders using advanced protocols such as Large Amplitude Oscillatory Shear (LAOS), capturing waveform distortions, damage onset, and healing mechanics.",
         figure: ""
       },
       {
         title: "Continuum Damage & Healing Mechanics",
-        description: "Developing thermodynamics-based continuum damage mechanics frameworks to quantify fatigue damage evolution and self-healing in asphalt binders under cyclic loading.",
+        description: "Developing thermodynamics-based frameworks to quantify fatigue damage evolution and self-healing capacity in asphalt binders and mixtures under cyclic loading.",
         figure: ""
       },
       {
-        title: "Time-Temperature Superposition",
-        description: "Investigating the applicability and limitations of time-temperature superposition for asphalt binders across wide temperature ranges including the glassy transition region.",
+        title: "Asphalt Mixture Performance",
+        description: "Evaluating asphalt mixtures for viscoelastic, viscoplastic (rutting), and fatigue responses using mechanistic testing frameworks that bridge the lab-field performance gap.",
         figure: ""
       },
       {
-        title: "Rheological Model Development",
-        description: "Comparing and developing mechanical analogue models (Prony series, fractional models) for accurate representation of asphalt binder viscoelastic properties.",
-        figure: ""
-      }
-    ],
-    figure: "" // main area hero figure
-  },
-  {
-    id: "mixture-performance",
-    title: "Asphalt Mixture Performance Evaluation",
-    shortTitle: "Mixture Performance",
-    tagline: "From laboratory testing to pavement-scale performance prediction.",
-    description: `Translating binder-scale understanding to mixture-scale performance is critical for durable pavements. My research evaluates asphalt mixtures for viscoelastic, viscoplastic (rutting), and fatigue damage responses using advanced testing and modeling frameworks, informing pavement design and performance specification.`,
-    subareas: [
-      {
-        title: "Fatigue Damage Characterization",
-        description: "Employing continuum damage mechanics and phenomenological models to characterize fatigue crack initiation and propagation in asphalt mixtures under repeated loading.",
-        figure: ""
-      },
-      {
-        title: "Viscoplastic & Rutting Analysis",
-        description: "Investigating permanent deformation mechanisms in asphalt mixtures through controlled stress and strain protocols, developing predictive rutting models.",
-        figure: ""
-      },
-      {
-        title: "Low-Temperature Cracking",
-        description: "Evaluating low-temperature performance of asphalt binders and mixtures, particularly in the context of recycled material blends and their susceptibility to thermal cracking.",
-        figure: ""
-      },
-      {
-        title: "Performance Testing Protocols",
-        description: "Developing and validating new performance testing protocols that better capture field performance and reduce the gap between lab testing and in-service pavement behavior.",
+        title: "Sustainable Pavement Materials",
+        description: "Investigating recycled asphalt pavement (RAP), recycled asphalt shingles (RAS), and recycling agents to maximize recycled content while maintaining mixture durability.",
         figure: ""
       }
     ],
     figure: ""
   },
   {
-    id: "sustainable-materials",
-    title: "Sustainable Pavement Materials",
-    shortTitle: "Sustainable Materials",
-    tagline: "Closing the loop on pavement material lifecycles.",
-    description: `With increasing emphasis on sustainability, my research investigates the use of recycled asphalt pavement (RAP), recycled asphalt shingles (RAS), and recycling agents to restore and rejuvenate aged binders. The goal is to maximize recycled content while ensuring adequate mixture durability and performance.`,
+    id: "resilience",
+    title: "Resilience",
+    shortTitle: "Resilience",
+    tagline: "Engineering transportation systems that absorb and adapt.",
+    description: `Transportation infrastructure faces escalating threats from climate change, extreme weather events, and aging asset bases. Our research develops quantitative frameworks to measure, model, and improve the resilience of pavement materials, individual pavements, and entire road networks — enabling agencies to prioritize investments that deliver the greatest resilience gains under uncertainty.`,
     subareas: [
       {
-        title: "Recycled Asphalt Pavement (RAP) & Shingles (RAS)",
-        description: "Characterizing the rheological and mechanical behavior of blended binders from high-RAP and RAS mixtures, understanding how aged recycled binder integrates with virgin binder.",
+        title: "Climate Change Impact Assessment",
+        description: "Modeling how projected temperature increases and shifting precipitation patterns alter pavement performance and life-cycle costs across regional road networks.",
         figure: ""
       },
       {
-        title: "Recycling Agents & Rejuvenation",
-        description: "Investigating how recycling agents restore the viscoelastic properties and fatigue resistance of aged binder blends, and developing acceptance criteria for recycling agent effectiveness.",
+        title: "Extreme Events & Natural Hazards",
+        description: "Assessing structural performance impacts of flooding, heatwaves, and freeze-thaw cycles on pavement systems, quantifying damage potential and recovery timelines.",
         figure: ""
       },
       {
-        title: "Aging & Rejuvenation Modeling",
-        description: "Developing phenomenological models that capture the combined effects of oxidative aging and rejuvenation on binder fatigue and cracking characteristics.",
+        title: "Network Vulnerability & Risk",
+        description: "Developing metrics and models to identify vulnerabilities at material, pavement, and network scales — enabling risk-informed maintenance and adaptation planning.",
         figure: ""
       },
       {
-        title: "Benchmarking & Acceptance Testing",
-        description: "Statistical and experimental frameworks for benchmarking performance of high-RAP mixtures and establishing thresholds for recycling agent acceptance across different climates.",
+        title: "Systems Dynamics Modeling",
+        description: "Applying system dynamics and agent-based modeling to simulate the behavior of pavement networks under compounding stresses from climate, traffic, aging, and hazard events.",
         figure: ""
       }
     ],
     figure: ""
   },
   {
-    id: "infrastructure-resilience",
-    title: "Infrastructure Resilience & Climate Adaptation",
-    shortTitle: "Infrastructure Resilience",
-    tagline: "Building road networks that withstand tomorrow's climate.",
-    description: `Infrastructure systems face growing threats from climate change — rising temperatures, intensifying floods, and shifting precipitation patterns all accelerate pavement deterioration. My research quantifies these impacts at material, pavement, and network scales, and develops adaptation strategies to improve the resilience of transportation systems.`,
+    id: "transportation",
+    title: "Transportation",
+    shortTitle: "Transportation",
+    tagline: "Connecting people, places, and communities through smart infrastructure.",
+    description: `Transportation is a system — and its performance depends on how well materials, structures, networks, and people interact. Our research takes a systems-level view of transportation infrastructure: understanding how pavement condition affects mobility, how network design influences accessibility and equity, and how emerging technologies and data analytics can be harnessed to manage transportation assets more effectively.`,
     subareas: [
       {
-        title: "Climate Change Impact on Pavements",
-        description: "Modeling how projected temperature increases and changing precipitation patterns alter in-service pavement performance and life-cycle costs across regional road networks.",
+        title: "Pavement Performance & Mobility",
+        description: "Linking pavement structural condition, roughness, and ride quality to vehicle operating costs, fuel efficiency, and traveler experience across road networks.",
         figure: ""
       },
       {
-        title: "Extreme Events & Flooding",
-        description: "Assessing structural performance impacts of flooding and heatwave events on pavement systems, identifying vulnerabilities and quantifying damage potential.",
+        title: "Asset Management & Life-Cycle Analysis",
+        description: "Developing data-driven asset management frameworks that optimize maintenance, rehabilitation, and replacement decisions over the full pavement life cycle.",
         figure: ""
       },
       {
-        title: "Network Vulnerability Assessment",
-        description: "Developing quantification techniques and metrics to model vulnerabilities at pavement and network scales, enabling prioritization of maintenance and adaptation investments.",
+        title: "Transportation Equity & Access",
+        description: "Examining how pavement condition and infrastructure investment patterns affect access to economic opportunity, healthcare, and essential services for underserved communities.",
         figure: ""
       },
       {
-        title: "Systems Modeling",
-        description: "Applying system dynamics and agent-based modeling approaches to simulate the behavior of pavement networks under compounding stresses from climate, traffic, and aging.",
+        title: "Data Analytics & Emerging Technologies",
+        description: "Leveraging emerging sensor technologies, machine learning, and large-scale pavement performance databases to advance data-driven infrastructure management.",
         figure: ""
       }
     ],
