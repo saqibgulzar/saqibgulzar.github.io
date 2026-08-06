@@ -299,23 +299,23 @@ export const researchAreas = [
     description: `Road safety is one of the most pressing challenges in transportation engineering. Our research investigates the material, structural, and system-level factors that contribute to pavement-related safety hazards — from skid resistance and surface friction to work zone design and crash risk modeling. We combine lab-scale characterization with network-level analysis to develop evidence-based safety improvements.`,
     subareas: [
       {
-        title: "Pavement Surface Friction & Skid Resistance",
-        description: "Characterizing the friction properties of pavement surfaces and their evolution with traffic and weather, identifying conditions that elevate wet-pavement crash risk.",
+        title: "Traffic Safety",
+        description: "Analyzing crash data, driver behavior, and traffic flow patterns to identify risk factors and develop evidence-based interventions that reduce crash frequency and severity on road networks.",
         figure: ""
       },
       {
-        title: "Work Zone Safety",
-        description: "Analyzing traffic flow disruptions, driver behavior, and material performance in active construction and maintenance zones to reduce work zone incidents.",
+        title: "Roadway Safety",
+        description: "Evaluating geometric design, pavement surface conditions (friction, roughness), signage, and roadside features to improve the inherent safety of highway and street infrastructure.",
         figure: ""
       },
       {
-        title: "Crash Risk & Pavement Condition",
-        description: "Developing models that link pavement structural and surface condition indicators (roughness, rut depth, cracking) to crash frequency and severity.",
+        title: "Rail Safety",
+        description: "Investigating infrastructure and operational factors that contribute to rail incidents — including track condition, grade crossing design, and human factors — to improve the safety of rail transportation systems.",
         figure: ""
       },
       {
-        title: "Vulnerable Road Users",
-        description: "Evaluating pavement surface conditions, shoulder design, and infrastructure treatments that affect the safety of pedestrians and cyclists.",
+        title: "Construction Safety",
+        description: "Assessing hazards in work zones and construction sites, examining the interaction between construction activities, worker safety, and through-traffic to develop safer project delivery practices.",
         figure: ""
       }
     ],
