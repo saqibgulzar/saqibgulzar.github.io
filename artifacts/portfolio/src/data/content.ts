@@ -25,30 +25,39 @@ My primary research is in the field of infrastructure materials and resilience, 
 
 export const areasOfInterest = [
   {
-    title: "Modeling and study of transportation infrastructure materials",
+    title: "Safety",
     items: [
-      "Multiscale mechanics and modeling of asphalt materials",
-      "Rheology and chemistry of asphalt binders",
-      "Continuum damage and healing mechanics",
-      "Performance evaluation of infrastructure materials",
-      "Uncertainty quantification and probabilistic characterization"
+      "Traffic safety analysis and crash risk modeling",
+      "Roadway safety: surface friction, geometric design, and signage",
+      "Rail safety: track condition, grade crossings, and human factors",
+      "Construction and work zone safety"
     ]
   },
   {
-    title: "Sustainable transportation infrastructure materials",
+    title: "Infrastructure",
     items: [
-      "Recycled materials such as recycled asphalt pavement (RAP), recycled asphalt shingles (RAS), etc.",
-      "Use of recycling agents, additives, softeners, etc.",
-      "Positive reuse of waste materials in road infrastructure"
+      "Multiscale mechanics and characterization of asphalt binders (LAOS, damage, healing)",
+      "Asphalt mixture performance: fatigue, rutting, and low-temperature cracking",
+      "Sustainable pavement materials: RAP, RAS, recycling agents, and rejuvenation",
+      "Performance testing protocols and material specification development"
     ]
   },
   {
-    title: "Transportation infrastructure resilience",
+    title: "Resilience",
     items: [
-      "Infrastructure resilience modeling",
-      "System dynamics and agent-based modeling",
-      "Impact assessment and adaptation methodologies",
-      "Impact of external factors on pavement performance"
+      "Climate change impact on pavement performance and life-cycle costs",
+      "Extreme events (flooding, heatwaves) and infrastructure vulnerability",
+      "Network-level risk quantification and adaptation planning",
+      "System dynamics and agent-based modeling of pavement networks"
+    ]
+  },
+  {
+    title: "Transportation",
+    items: [
+      "Pavement condition, ride quality, and mobility",
+      "Data-driven asset management and life-cycle analysis",
+      "Transportation equity and access for underserved communities",
+      "Emerging technologies and data analytics for infrastructure management"
     ]
   }
 ];
