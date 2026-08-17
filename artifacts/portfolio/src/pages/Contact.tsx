@@ -47,7 +47,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Office</h3>
-                  <p className="text-muted-foreground">{profile.office}</p>
+                  <p className="text-muted-foreground">Room {profile.office}</p>
+                  <p className="text-muted-foreground text-sm">Engineering &amp; Science Building</p>
                 </div>
               </div>
 
@@ -58,8 +59,8 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold mb-1">Mailing Address</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Southern Colorado Institute of Transportation Technology (SCITT)<br />
-                    {profile.institution}
+                    {profile.institution}<br />
+                    {profile.mailingAddress}
                   </p>
                 </div>
               </div>

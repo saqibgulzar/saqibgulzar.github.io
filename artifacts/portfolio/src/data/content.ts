@@ -7,6 +7,8 @@ export const profile = {
   title2: "Research Director, Southern Colorado Institute of Transportation Technology",
   lab: "Gulzar Lab",
   institution: "Colorado State University Pueblo",
+  office: "TEE-220F",
+  mailingAddress: "2200 Bonforte Blvd, Pueblo, CO 81001",
   email: "saqib.gulzar@csupueblo.edu",
   phone: "919.793.5471",
   socials: {
