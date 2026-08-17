@@ -19,9 +19,11 @@ export const profile = {
   }
 };
 
-export const bio = `Welcome! I am currently a SCITT Assistant Professor at Colorado State University Pueblo. I completed my PhD under the supervision of Prof. Shane Underwood in the Department of Civil, Construction, and Environmental Engineering at North Carolina State University.
+export const bio = `Dr. Saqib Gulzar is an Assistant Professor in the School of Engineering at Colorado State University Pueblo. He also serves as the Research Director of the Southern Colorado Institute of Transportation Technology (SCITT). Dr. Gulzar completed his PhD at North Carolina State University and Masters from Indian Institute of Technology, Delhi. His academic credentials shine with accolades from NIT Srinagar, IIT Delhi, and NC State University, including BTech Gold Medal, IITD Academic Excellence Award and the Sloan Graduate Fellowship at NCSU.
 
-My primary research is in the field of infrastructure materials and resilience, and my ongoing research centers on employing bottom-up, multiscale mechanistic investigations to explore asphalt concrete and its primary constituent asphalt binder. These investigations involve rheological characterization of asphalt binders, understanding the underlying damage and healing mechanics, and performance evaluation of asphalt concrete for viscoelastic, viscoplastic, and fatigue damage characterization. Additionally, I employ top-down systems studies to uncover needs and knowledge gaps that can be informed by the findings of the bottom-up investigations. These studies include assessment of impact of extreme events such as flooding and heatwaves on pavement structural performance, modeling the impact of climate change on road networks, and developing quantification techniques and metrics to model the existing vulnerabilities at material, pavement, and network scales.`;
+His research areas span across safety, infrastructure, transportation and resilience. Dr. Gulzar is the recipient of several best paper and society awards including APSE — Academy of Pavement Science and Engineering's Outstanding Student Member Award and Best Paper Award runner-up from AKM20 committee of Transportation Research Board, USA.
+
+Dr. Gulzar serves as the Editor of several journals and serves on the AKN11 Standing Committee of the Transportation Research Board of the National Academies of Sciences, Engineering, and Medicine (NASEM).`;
 
 export const areasOfInterest = [
   {
