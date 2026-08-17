@@ -14,7 +14,8 @@ export function ProfileSidebar() {
       {/* Name + title */}
       <div className="text-center md:text-left space-y-1 w-full">
         <h1 className="text-2xl font-serif font-bold text-foreground">{profile.name}</h1>
-        <p className="text-primary font-medium">{profile.title}</p>
+        <p className="text-primary font-medium text-sm leading-snug">{profile.title}</p>
+        <p className="text-primary/80 font-medium text-sm leading-snug">{profile.title2}</p>
         <p className="text-muted-foreground text-sm">{profile.institution}</p>
       </div>
 
@@ -33,9 +34,6 @@ export function ProfileSidebar() {
 
       {/* Contact info */}
       <div className="text-center md:text-left text-sm text-muted-foreground space-y-2 w-full">
-        <p className="flex items-center justify-center md:justify-start gap-2">
-          <span>{profile.office}</span>
-        </p>
         <p className="flex items-center justify-center md:justify-start gap-2">
           <a href={`mailto:${profile.email}`} className="hover:text-primary transition-colors">
             {profile.email}

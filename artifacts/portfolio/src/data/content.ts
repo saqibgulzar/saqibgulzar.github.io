@@ -3,11 +3,11 @@ import { MdEmail } from "react-icons/md";
 
 export const profile = {
   name: "Saqib Gulzar",
-  title: "SCITT Assistant Professor",
+  title: "Assistant Professor, School of Engineering",
+  title2: "Research Director, Southern Colorado Institute of Transportation Technology",
   lab: "Gulzar Lab",
   institution: "Colorado State University Pueblo",
   email: "saqib.gulzar@csupueblo.edu",
-  office: "CIHHI 254",
   phone: "919.793.5471",
   socials: {
     googleScholar: "https://scholar.google.com",
